@@ -13,7 +13,7 @@ public class DBSimulering {
 	private double value = START;
 
 	public DBSimulering() {
-		File ind = new File("C:/Users/madso/Dropbox/Semesterprojekt 1/Datafiler/CaseC/Rå data.txt");
+		File ind = new File("C:/Users/madso/Dropbox/Semesterprojekt 1/Datafiler/CaseC/Rï¿½ data.txt");
 		try {
 			Scanner input = new Scanner(new FileReader(ind));
 			inddata = new ArrayList<>();
@@ -47,13 +47,13 @@ public class DBSimulering {
 		return (int) value;
 	}
 
-	public int[][] hentData(int størrelse) {
-		int[][] data = new int[størrelse][2];
+	public int[][] hentData(int stÃ¸rrelse) {
+		int[][] data = new int[stÃ¸rrelse][2];
 		int start;
 		if (kald == 0) {
 			start = 1;
 		} else {
-			start = størrelse * kald + 1;
+			start = stÃ¸rrelse * kald + 1;
 		}
 		int i = start;
 		if ((i + 600) >= inddata.size())
