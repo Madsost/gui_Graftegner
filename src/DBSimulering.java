@@ -39,11 +39,13 @@ public class DBSimulering {
 			return 0;
 		}
 	}
-	
-	public int hentMaalingTemp(){
-		value += (2*Math.random()-1.0) * DELTAMAX;
-			if ( value < 0.0 ) value = 0.0;
-			if ( value > 255.0 ) value = 255.0;
+
+	public int hentMaalingTemp() {
+		value += (2 * Math.random() - 1.0) * DELTAMAX;
+		if (value < 0.0)
+			value = 0.0;
+		if (value > 255.0)
+			value = 255.0;
 		return (int) value;
 	}
 
