@@ -21,7 +21,7 @@ public class Panel extends javax.swing.JPanel {
 	public Panel() {
 		initComponents();
 		
-		JFrame vindue = new JFrame("Puls-målinger - med opdateringer");
+		JFrame vindue = new JFrame("Puls-mï¿½linger - med opdateringer");
         vindue.add(this);
         vindue.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         vindue.pack();
@@ -38,7 +38,7 @@ public class Panel extends javax.swing.JPanel {
 	// Code">//GEN-BEGIN:initComponents
 	private void initComponents() {
 
-		javax.swing.JPanel Grafomraade = new Graftegner3(1500, 60);
+		javax.swing.JPanel Grafomraade = new Graftegner2();
 		jLabel1 = new javax.swing.JLabel();
 		jButton3 = new javax.swing.JButton();
 		jLabel2 = new javax.swing.JLabel();
@@ -60,7 +60,7 @@ public class Panel extends javax.swing.JPanel {
 		GrafomraadeLayout.setVerticalGroup(GrafomraadeLayout
 				.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING).addGap(0, 259, Short.MAX_VALUE));
 
-		jLabel1.setText("Pulsmåling");
+		jLabel1.setText("Pulsmï¿½ling");
 
 		jButton3.setText("Afslut");
 		jButton3.addActionListener(new java.awt.event.ActionListener() {

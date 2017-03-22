@@ -13,7 +13,7 @@ public class DBSimulering {
 	private double value = START;
 
 	public DBSimulering() {
-		File ind = new File("C:/Users/madso/Dropbox/Semesterprojekt 1/Datafiler/CaseC/R� data.txt");
+		File ind = new File("C:/Users/madso/Dropbox/Semesterprojekt 1/Datafiler/CaseC/Rå data.txt");
 		try {
 			Scanner input = new Scanner(new FileReader(ind));
 			inddata = new ArrayList<>();

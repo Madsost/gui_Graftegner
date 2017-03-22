@@ -10,7 +10,7 @@ public class Graftegner2 extends JPanel {
 	private static int MAXX = 600;
 	private static int MINX = -1;
 	private static int MINY = -1;
-	private static int MAXY = 256;
+	private static int MAXY = 1024;
 	private static int STEP = 100;
 	int tael = 0;
 	DBSimulering inddata;
@@ -93,9 +93,9 @@ public class Graftegner2 extends JPanel {
 			}
 		}
 
-		// tegner ét punkt, med opdatering hvert 5. milisekund
+		// tegner ï¿½t punkt, med opdatering hvert 5. milisekund
 		// TODO: Hvordan tegner vi resten af grafen med?
-		// Måske noget med at tilføje målinger til en liste?
+		// MÃ¥ske noget med at tilfï¿½je mï¿½linger til en liste?
 		if (tael++ == 600)
 			tael = 0;
 	}
